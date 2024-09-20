@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIT VS CODE (Rondino Lautaro Nahuel)</title>
+</head>
+<body>
+    <!-- 1. Escribe un programa de una sola línea que haga que aparezca en la pantalla un alert que diga “Hello World”. -->
+        
+        alert("Hello World");
+        
+    <!-- 2. Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello World” (document.write). -->
+       
+        document.write("Hello World");
+        
+    <!-- 3. Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3 + 5. -->
+       
+        document.write(3 + 5);
+
+    <!-- 4. Escribe un programa de dos líneas que pida el nombre del usuario con un prompt y escriba un texto que diga “Hola nombreUsuario” -->
+
+        let nombre = prompt("¿Cuál es tu nombre?"); document.write("Hola " + nombre);
+
+    <!-- 5. Escribe un programa de tres líneas que pida un número, pida otro número y escriba el resultado de sumar estos dos números. -->
+
+        let num1 = prompt("Ingresa el primer número"); let num2 = prompt("Ingresa el segundo número"); document.write(Number(num1) + Number(num2));
+
+    <!-- 6. Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor. -->
+
+        let num1 = prompt("Ingresa el primer número"); let num2 = prompt("Ingresa el segundo número"); document.write(Math.max(Number(num1), Number(num2)));
+
+    <!-- 7. Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres. -->
+
+        let num1 = prompt("Ingresa el primer número"); let num2 = prompt("Ingresa el segundo número"); let num3 = prompt("Ingresa el tercer número"); document.write(Math.max(Number(num1), Number(num2), Number(num3)));
+
+    <!-- 8. Escribe un programa que pida un número y diga si es divisible por 2. -->
+
+        let num = prompt("Ingresa un número"); document.write(num % 2 === 0 ? "Es divisible por 2" : "No es divisible por 2");
+
+    <!-- 9. Escribe un programa que pida un número y determine si es par o impar. -->
+
+        let num = prompt("Ingresa un número"); document.write(num % 2 === 0 ? "Es par" : "Es impar");
+
+    <!-- 10. Escribe un programa que pida una nota numérica y determine si el alumno ha aprobado (nota mayor o igual a 5). -->
+
+        let nota = prompt("Ingresa la nota"); document.write(nota >= 5 ? "Aprobado" : "Reprobado");
+
+    <!-- 11. Escribe un programa que pida un número del 1 al 12 y muestre el nombre del mes correspondiente. -->
+
+        let mes = prompt("Ingresa un número del 1 al 12"); let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]; document.write(meses[Number(mes) - 1]);
+    
+    <!-- 12. Escribe un programa que pida un número del 1 al 7 y muestre el día de la semana correspondiente -->
+
+        let dia = prompt("Ingresa un número del 1 al 7"); let dias = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]; document.write(dias[Number(dia) - 1]);
+        
+</body>
+</html>
